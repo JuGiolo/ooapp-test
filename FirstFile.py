@@ -11,3 +11,6 @@ print('hello','Juliana','Giolo')
 this add comments
 in more than one line
 """
+print('Hello,')
+print('Juliana Giolo')
+print('Hello','Giolo')
