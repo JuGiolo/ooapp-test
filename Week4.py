@@ -31,9 +31,7 @@ for character in greeting: # Iterate over the string one letter at a time
         print(character) # Print the current character
 '''
 
-
-
-'''
+"""
 shopping_lists = [["Eggs", "Milk", "Ham"], 
                   ["Vinegar", "Mustard", "Ketchup"], 
                   ["Burgers", "Lettuce", "Mayo"]]
@@ -41,11 +39,9 @@ shopping_lists = [["Eggs", "Milk", "Ham"],
 for current_list in shopping_lists: # Steps through the list of lists
     for item in current_list: # Steps through each list
         print(item) # Prints the item in the current shopping list
-'''
+"""
 
-
-
-'''
+"""
 while True: # This is an infinite loop
   number = int(input("Please type a number between 1 and 10: ")) # Take user input
 
@@ -58,4 +54,22 @@ while True: # This is an infinite loop
   else: # If the input is in a valid range
     print("Number provided is between 1 and 10")
     break # End the loop
-'''
+"""
+
+
+"""
+    =========== Exercise 1 =============
+
+    Take the current for loop below and add
+    two conditions to the loop body:
+        1. If 'Eggs' are the current element, then conitnue
+        2. If 'Sausages' is the current element, stop iterating.
+"""
+
+shopping_list = ["Bread", "Bannanas", "Pineapples", "Eggs", "Oranges", "Milk", "Sausages"]
+
+for item in shopping_list: # Iterate over the items in the shopping list
+    if item == "eggs":
+        continue
+    elif item == "sausages":
+       break
