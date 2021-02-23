@@ -1,5 +1,4 @@
-
-
+"""
 sum = 5 + 3
 sum_2 = 2 + sum 
 sum_3 = sum + sum_2
@@ -82,3 +81,7 @@ elif user_value == 5:
     print("Five")
 else: # If value is not between 0 and 5
     print("Value provided is not between 0 and 5!")
+"""
+name = input("Enter name: ") # Take someones name from the command line
+
+print("john" in name) # Prints: True if john is name given, or False otherwise
